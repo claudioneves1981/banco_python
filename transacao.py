@@ -1,4 +1,5 @@
-from abc import ABC, abstractmethod, abstractproperty
+from abc import ABC, abstractclassmethod, abstractproperty
+
 class Transacao(ABC):
 
     @property

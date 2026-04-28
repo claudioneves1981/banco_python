@@ -1,4 +1,8 @@
 import cliente
 
 class PessoaFisica(cliente.Cliente):
-	pass
+	def __init__(self,nome,data_nascimento,cpf,endereco):
+		super().__init__(endereco)
+		self.nome = nome
+		self.data_nascimento = data_nascimento
+		self.cpf = cpf

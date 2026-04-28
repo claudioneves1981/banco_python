@@ -1,4 +1,4 @@
-from historico import Historico  # Add this import if Historico is defined in historico.py
+from historico import Historico  
 
 class Conta:
     def __init__(self, numero, cliente):
